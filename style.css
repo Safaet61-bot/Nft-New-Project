@@ -1,0 +1,2146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: scroll; */
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Jost', sans-serif;
+}
+
+button {
+  transform: perspective(800px) translateZ(0);
+}
+
+button:hover {
+  transform: perspective(900px) translateZ(100px);
+  transition: all 0.4s ease;
+}
+
+.utilities-section {
+  overflow: hidden;
+}
+
+.babydoge-wrapper {
+  overflow: hidden;
+  padding: 6rem;
+}
+
+.lootbox {
+  overflow: hidden;
+}
+
+.babydoge-feature-section {
+  overflow: hidden;
+}
+
+.newbg {
+  overflow: hidden;
+}
+
+.mint-section {
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  overflow: hidden;
+}
+
+.menus {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.ytext {
+  color: yellow;
+}
+
+.menus a {
+  text-decoration: none;
+  color: rgb(244, 243, 243);
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+  margin-top: 15px;
+  margin-left: 25px;
+
+}
+
+.ytext:hover {
+  color: #FFD700;
+  ;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-white {
+  background: black;
+  color: rgb(251, 251, 251);
+  border: #ffffff;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+.btn-white:hover {
+  color: #FFD700;
+  /* Change text color to yellow on hover */
+  border-color: #FFD700;
+  /* Change border color to yellow on hover */
+}
+
+.btn-yellow {
+  background: black;
+  color: rgb(248, 220, 6);
+
+  padding: 8px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+body {
+  background: #000;
+  /* dark background like your screenshot */
+  /* font-family: sans-serif; */
+  color: white;
+}
+
+.divider-line {
+  height: 1px;
+  background-color: white;
+  /* or any color you want */
+  width: 100%;
+  margin-top: 8px;
+  /* space from header */
+}
+
+
+/* Hero section */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px;
+  background-color: #000;
+  color: white;
+}
+
+/* .
+hero-left{
+    width: 695.19;
+    height: 642.61;
+    
+}
+
+  font-weight: bold;
+  text-align: center;  
+  display: flex;  
+  line-height: 1.1; 
+}
+
+.white, .yellow {
+  display: inline-block; 
+}
+
+.yellow-cross-img {
+  width: 10%; 
+  margin: 0 10px; 
+}
+
+h1 br {
+  display: block; 
+  margin: 10px 0;
+}  */
+
+/* .H1-text{
+  font-size: 100px;
+} */
+.hero-left {
+  flex-basis: 80%;
+
+}
+
+.Whitelist-image {
+  width: 40%;
+  /* Set the width of the image */
+  height: auto;
+}
+
+
+.herotext h1 {
+
+  letter-spacing: -0.10px;
+}
+
+.herotext .y {
+  color: yellow;
+}
+
+.herotext .yellow-cross-img {
+  width: 10%;
+}
+
+.bby {
+  font-size: 80px;
+}
+
+.dd {
+  font-size: 80px;
+}
+
+.KATANA {
+  font-size: 70px;
+}
+
+.INU {
+  font-size: 70px;
+}
+
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.description {
+  margin: 20px 0;
+  font-size: 8px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.whitelist-btn {
+  background-color: #FFD700;
+  padding: 15px 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+
+}
+
+.yellow {
+  color: yellow;
+}
+
+.button-group {
+  display: flex;
+  gap: 50px;
+
+  align-items: flex-start;
+}
+
+.logo-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-logo {
+  width: 61.45px;
+  height: 62.23px;
+  margin-bottom: 10px;
+}
+
+.dark-btn {
+  background-color: #000;
+  color: white;
+  padding: 10px 50px;
+  font-weight: bold;
+  border: 1px solid white;
+
+}
+
+
+.hero-right img {
+  /* max-width: 7000px; */
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+
+
+}
+
+.divider-line2 {
+  height: 3px;
+  background-color: rgba(248, 204, 6, 0.961);
+  /* or any color you want */
+  width: 10%;
+  margin-top: 10px;
+  /* space from header */
+}
+
+/* for the 2nd page */
+
+.utilities-section {
+  display: flex;
+
+  color: white;
+  margin-top: 20px;
+  /* margin-bottom: 5rem; */
+  background-image: url('./logo/section-2/sanwal\ 2\ \(2\).png');
+
+
+}
+
+.utilities-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-right: 2%;
+  height: fit-content;
+  max-width: 50%;
+  max-height: 100%;
+
+
+}
+
+.utilities-left h5 {
+  font-size: 40px;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Khand', sans-serif;
+}
+
+.video-thumbnail {
+  position: relative;
+  width: 80%;
+
+  margin-bottom: 2%;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20%;
+
+}
+
+.btn {
+
+  margin-left: 5%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.image-button {
+  width: 70%;
+  cursor: pointer;
+
+
+}
+
+
+/* .doge{
+    
+    width: 995.34px;
+    height: 100px;
+   
+} */
+.bottom-character {
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-right: 20%;
+
+
+}
+
+.bottom-character a img {
+  width: 100%;
+}
+
+.baby-doge {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0%;
+}
+
+.utilities-right {
+
+  padding-left: 150px;
+  background: linear-gradient(to bottom, #f3f3f3, #000000);
+  /* align-content: center; */
+
+}
+
+.utilities-title {
+  font-size: 32px;
+  color: #FFD700;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding-left: 160px;
+  margin-bottom: 50px;
+}
+
+.utilities-right {
+  flex: 1;
+  padding: 0;
+  background: none;
+  position: relative;
+}
+
+
+.right-bg-content {
+  background-image: url('.//logo/section-2/sanwal\ 3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.main-inset-img {
+  width: 70%;
+  max-width: 600px;
+  height: 500px;
+}
+
+
+
+.divider3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.utilities-right {
+  background: linear-gradient(to right, #8d8c8c, #2c2b2b);
+  background: linear-gradient(to bottom, #2a2929, #4f4e4e);
+}
+
+.utility-title {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+
+
+}
+
+.utility-title h2 {
+  font-family: font-family: 'Jost', sans-serif;
+  color: #FFD700;
+}
+
+.strong-text:hover {
+  color: #FFD700;
+  /* Gold color on hover */
+}
+
+.text .x {
+  background: linear-gradient(to bottom, #8d8c8c, #2c2b2b);
+  background: linear-gradient(to right, #edebeb, #666565);
+}
+
+.Whole-frame {
+  position: relative;
+  display: inline-block;
+}
+
+.hex-frame {
+  width: 100px;
+  /* Set the size for the hex-frame (you can adjust the size as needed) */
+  height: 100px;
+  position: relative;
+  /* Ensures the child elements are positioned inside it */
+}
+
+.utility-icon {
+  position: absolute;
+  /* Position the second image inside the first one */
+  top: 40%;
+  /* Vertically center */
+  left: 50%;
+  /* Horizontally center */
+  transform: translate(-50%, -50%);
+  /* Corrects the positioning by moving the image back */
+  width: 50px;
+  /* Set the size of the second image */
+  height: 50px;
+  /* Set the size of the second image */
+}
+
+.Utility-item {
+
+  display: flex;
+
+}
+
+.Utility-item:hover {
+  color: #a3a3a1;
+  /* Change text color to yellow on hover */
+  cursor: pointer;
+  /* Change border color to yellow on hover */
+}
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 3%;
+  /* Small gap between the images and the text */
+  line-break: 10%;
+  margin-left: 1;
+  font-family: 'Jost', sans-serif;
+}
+
+
+/* Style for the strong text with border */
+.strong-text {
+  border: 1px solid #FFD700;
+  /* Yellow border */
+  padding: 5px 50px 5px 5px;
+  /* Padding around the text */
+  background-color: white;
+  /* White background */
+  color: black;
+  /* Text color (black) for visibility */
+  margin-bottom: 14px;
+  /* Space between text elements */
+  text-align: left;
+  /* Align text to the left */
+  margin-right: 1%;
+  margin-left: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+.center-item {
+  padding-left: 30%;
+}
+
+.center-item1 {
+  padding-left: 18%;
+}
+
+.main-center {
+  padding-left: 6%;
+}
+
+/* Optional: Add a rough border effect (e.g., using background-image) */
+ .left-divider {
+  height: 3px;
+  background-color: rgb(237, 214, 4);
+  /* or any color you want */
+  width: 10%;
+  margin-right: auto;
+
+}
+
+.right-divider {
+  /* or any color you want */
+  /* or a specific height like 300px */
+
+  height: 3px;
+  background-color: rgb(237, 214, 4);
+  /* or any color you want */
+  width: 30%;
+  margin-left: auto;
+
+}
+
+/* .babydoge-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
+    url('./logo/Group 36918.png') no-repeat center/cover;
+
+
+  margin-bottom: 5%;
+
+} */
+
+/* background: linear-gradient(to bottom, #0000, #482300);
+  background: linear-gradient(to left, #222, #111); */
+
+/* 3rd section */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* ====section three=== */
+.section3 {
+  width: 100%;
+  color: white;
+  padding: 5rem;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9)), url('./logo/Group\ 36918.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.section3{
+  
+}
+
+
+.headerline3 {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerline3 .text h1 {
+  text-align: center;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+
+.headerline3 .text h1::before {
+  content: '';
+  background-image: url('images/Group\ 270.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 200px;
+  display: block;
+  position: absolute;
+  right: -1.5rem;
+  top: 0rem;
+
+}
+
+.contentdiv {
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cimg>img {
+  width: 80%;
+}
+
+.topcontent {
+  color: rgb(255, 255, 255);
+}
+
+.downcontent {
+  margin-top: 27rem;
+}
+
+.downcontent .gridcontent {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.midparts img {
+  width: 50%;
+  height: 50%;
+  margin-bottom: -0.5rem;
+  margin-top: 0.5rem;
+}
+
+.card {
+  position: relative;
+  transform: perspective(800px) translateZ(0px);
+  transition: all 0.5s ease;
+}
+
+.cardcontent {
+  position: relative;
+  background-color: #2B2A2ACC;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 2rem;
+  transform: perspective(800px) translateZ(0px);
+  transition: all 0.5s ease;
+}
+
+.cimg {
+  position: absolute;
+  top: -20rem;
+  right: 0rem;
+  transform: perspective(800px) translateZ(0px);
+  transition: all 0.5s ease;
+}
+
+.card:hover>.cardcontents {
+  transform: perspective(800px) translateZ(60px);
+  transition: all 0.5s ease;
+  background: linear-gradient(to bottom, #0000, #482300);
+}
+.card:hover>.downparts{{
+  background: linear-gradient(to bottom, #0000, #482300);
+}}
+
+.card:hover>.cimg {
+  transform: perspective(300px) translateZ(100px);
+  transition: all 0.5s ease;
+}
+
+.midparts {
+  padding: 1rem;
+}
+
+
+
+.cimg img {
+  width: 260px;
+  height: 415px;
+}
+
+.cimg3 img {
+  width: 376px;
+  height: 415px;
+}
+
+.bb {
+  font-size: 0.8rem;
+  color: black;
+}
+
+.sames {
+  font-size: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.sames2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.sames3 {
+  font-size: 0.8rem;
+}
+
+.downparts {
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.topparts {
+  position: absolute;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  top: -1.5rem;
+  right: 2.8rem;
+  padding: 0.8rem 3rem;
+
+}
+
+.bbybold {
+  font-weight: bold;
+}
+
+
+/* 4th section */
+.rightelement {
+  padding: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  position: relative;
+}
+
+img {
+  width: 80%
+}
+
+.contentone::before {
+  content: '';
+  background-image: url('./logo/section4/babydoge_Viewport_029\ 1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 27rem;
+  height: 27rem;
+  display: block;
+  top: -6rem;
+  left: 9rem;
+
+}
+
+.contenttwo::before {
+  content: '';
+  background-image: url('./logo/section4/Untitled_Viewport_006\ 1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 16rem;
+  height: 20rem;
+  width: 20rem;
+  display: block;
+  top: 12rem;
+  left: 17rem;
+
+}
+
+.section4 {
+  background-color: black;
+  color: white;
+  /* padding: 6rem; */
+  background-image: url('./logo/section4/sanwal\ 2\(2\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.boxheading1 {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.cross img {
+  width: 1.5rem;
+}
+
+.babyColor {
+  color: #FFD026;
+}
+
+.con {
+  width: ;
+}
+
+.innercolor1 {
+  color: #FFD026;
+}
+
+.wholebox1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.allinput1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 2rem; */
+}
+
+.con {
+  width: 100%;
+  padding: 0.1rem;
+  margin-top: 1.5rem;
+  border: 1px solid white;
+
+}
+
+.inputhead1 {
+  margin-top: 1.5rem;
+}
+
+.innercolor1 {
+  font-weight: bold;
+}
+
+.con2 {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 3rem;
+
+}
+
+.subcon1 {
+  border: 1px solid white;
+  width: 50%;
+}
+
+.supplytext {
+  padding: 0.7rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+.inputfour1 {
+  text-align: center;
+}
+
+.toptext1 {
+  margin-top: 2rem;
+}
+
+.downtext1 {
+  margin-top: 1rem;
+}
+
+.inputfive1 {
+  text-align: center;
+}
+
+.t-one1 {
+  padding: 0.5rem 3rem;
+  background-color: #FFC700;
+  font-weight: bold;
+  border: 1 px solid white;
+  margin-top: 2.5rem;
+}
+
+.leftbox1 {
+  flex-basis: 50%;
+  padding: 6rem;
+  background: linear-gradient(to right, #0000, #1c1b19);
+}
+
+.rightbox1 {
+  flex-basis: 50%;
+}
+
+/* 5th section */
+
+.babydoge-feature-section {
+  background: url('./logo/section5/sanwal\ 2.png') no-repeat center/cover;
+  padding: 80px 20px;
+  font-family: 'Jost', sans-serif;
+}
+
+.babydoge-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+  font-family: 'Jost', sans-serif;
+}
+
+.babydoge-feature-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.babydoge-feature-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  size: 10%;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-row:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+}
+
+.feature-row1 {
+  padding-left: 50px;
+  margin-bottom: 0px;
+}
+
+.feature-row3 {
+  padding-left: 50px;
+}
+
+
+
+.feature-icon img {
+  width: 70px;
+  height: 70px;
+}
+
+.feature-box {
+  padding: 20px;
+  border-left: 4px solid #f1c40f;
+  border-right: 4px solid #f1c40f;
+  color: white;
+  max-width: 350px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.babydoge-feature-right img {
+  max-width: 500px;
+  width: 100%;
+}
+
+/* 6th section */
+
+.swords-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Jost', sans-serif;
+  font-size: small;
+}
+
+.swords-title img {
+  width: 15%;
+}
+
+
+
+/* 6th section */
+
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 13.75rem);
+  gap: 10px;
+  justify-content: center;
+ 
+}
+
+.headerline6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerline6 .text h1 {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.headerline6 .text h1::before {
+  content: '';
+  background-image: url('images/Group\ 270.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 200px;
+  display: block;
+  position: absolute;
+  right: -2.3rem;
+  top: 0rem;
+
+}
+
+.container {
+  font-family: 'Jost', sans-serif;
+  margin-bottom: 4rem;
+   background-image: linear-gradient(rgba(0, 0.1, 0.1, 0.1)), url('./logo/section10/sanwal\ 2.png');
+}
+
+
+
+.h {
+  font-size: 12px;
+}
+
+.p {
+  font-size: 9px;
+  margin-bottom: 10px;
+}
+
+.h-t {
+  margin-bottom: 10px;
+}
+
+.p1 {
+  font-size: 4.47px;
+  margin-bottom: 2px;
+}
+
+.h3 {
+  font-size: 6px;
+}
+
+.p2 {
+  font-size: 10px;
+}
+
+.p-3 {
+  font-size: 5px;
+}
+
+.heading>h2,
+p {
+  color: #A6A6A6;
+}
+
+.down>div {
+  color: #D2D2D5;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+/* bgcolor change */
+.details {
+  padding: 20px;
+  background: linear-gradient(to bottom, #1d1d1d, #0a0909);
+
+}
+
+.kn {
+  transform: perspective(800px) translateZ(0px);
+  transition: all 0.5 ease;
+}
+
+.kn:hover {
+  transform: perspective(500px) translateZ(80px);
+  transition: all 0.5s ease;
+}
+
+.kn:hover>.details-3 {
+  background: linear-gradient(to bottom right, #0e0f1c, #c07915e0);
+}
+
+.kn:hover>.color {
+  background: linear-gradient(to bottom right, #0e0f1c, #c07915e0);
+}
+
+.details-3:hover {
+  background: linear-gradient(to bottom right, #0e0f1c, #c07915e0);
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.span {
+  margin-top: -1px;
+}
+
+.color .i {
+  width: 8px;
+  height: 8px;
+}
+
+.knifes {
+  margin-bottom: 4rem;
+}
+
+.container .knifes .knife-1 {
+  background-image: url('images/img1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 150px;
+  width: 17rem;
+  height: 26.25rem;
+  border: none;
+}
+
+.container .knifes .knife-2 {
+  background-image: url('images/img2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 150px;
+  width: 17rem;
+  height: 26.25rem;
+  border: none;
+}
+
+
+.container .kn .knife-3 {
+  background-image: url('images/midbg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 2.20rem;
+  background-position-y: 5.625rem;
+  width: 17rem;
+  height: 26.25rem;
+  border: none;
+
+
+}
+
+.container .kn .knife-3::before {
+  content: '';
+  background-image: url('images/mid.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 35px;
+  background-position-y: 90px;
+  width: 17rem;
+  height: 26.25rem;
+  border: none;
+  display: block;
+}
+
+.container .knifes .knife-4 {
+  background-image: url('images/img3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 150px;
+  width: 17rem;
+  height: 26.25rem;
+  border: none;
+}
+
+.container .knifes .knife-5 {
+  background-image: url('images/img4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 150px;
+  width: 17rem;
+  height: 26.25rem;
+  border: none;
+}
+
+
+
+/* next part */
+
+.weapon-section {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #494747, #000000);
+}
+
+.weapon-container {
+  position: relative;
+  width: 280px;
+  padding-bottom: 200px;
+}
+
+.rhombus-frame {
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sword-img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.blur-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.weapon-info {
+  background: linear-gradient(to top, #000000, #1a1a1a);
+  padding: 20px;
+  color: white;
+  border-top: 2px solid #ffffff;
+  width: 320px;
+  /* Increase or set custom width */
+  height: 180px;
+}
+
+.title-yellow {
+  color: #F8C306;
+  margin-bottom: 10px;
+}
+
+.title-white {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  color: white;
+}
+
+
+.meta {
+  font-size: 13px;
+  color: #dedede;
+  margin: 4px 0;
+}
+
+.color-dots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.tags {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #ededed;
+  display: flex;
+  gap: 10px;
+}
+
+
+
+/* the next section */
+.mint-section {
+  position: relative;
+  /* background: url('./logo/secion7/OKX_samurai_Viewport_007\ 5.png') no-repeat center center / cover; */
+  padding: 100px 30px 40px;
+  text-align: center;
+  color: white;
+  
+  font-family: 'Jost', sans-serif;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1)), url('./logo/section10/sanwal\ 2.png');
+}
+
+.mintline {
+  margin-top: -5rem;
+}
+
+.headerline7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerline7 .text h1 {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+.headerline7 .text h1::before {
+  content: '';
+  background-image: url('images/Group\ 270.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 200px;
+  display: block;
+  position: absolute;
+  right: -3rem;
+  top: 0rem;
+
+}
+
+/* only the buttons */
+.favorite-button {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 18px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.favorite-button .emoji {
+  font-size: 18px;
+
+  color: black;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.favorite-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+}
+
+/* only butttons end here */
+
+
+.side-image {
+  position: absolute;
+  top: 10px;
+  max-height: 850px;
+  padding-left: 20px;
+
+}
+
+.left-doge {
+  left: 0;
+  margin-left: -40px;
+  width: 600px;
+  margin-top: 3%;
+  padding-bottom: 2%;
+}
+
+.right-doge {
+  right: 0;
+  margin-right: -40px;
+  width: 500px;
+  margin-top: 3%;
+  padding-bottom: 2%;
+}
+
+.mint-title {
+  font-size: 28px;
+  letter-spacing: 5px;
+  margin-bottom: 200px;
+}
+
+.mint-description {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.5;
+  margin-top: 5rem;
+}
+
+.highlight-gold {
+  color: #F8C306;
+}
+
+.mint-card {
+  background: linear-gradient(to bottom, #434242, #000000);
+  margin: 40px auto;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 500px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  padding-right: 30px;
+}
+
+.mint-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-left: -5px;
+  padding-bottom: 5%;
+  gap: 1px;
+}
+
+.mint-button {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin-top: -20px;
+
+}
+
+.mint-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.left-info {
+  /* flex: 1;
+  text-align:left;
+  padding-left: 50px; */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 50px;
+  gap: 10px;
+
+
+
+}
+
+.left-info h3 {
+  font-size: 20px;
+}
+
+.eth-button {
+  background-color: #F8C306;
+  border-radius: 12px;
+  color: #000;
+  margin-left: 6px;
+  border: none;
+
+  padding: 12px;
+  width: 80px;
+  height: 12px;
+  font-size: 13px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.eth img {
+  width: 8%;
+}
+
+.eth {
+  display: flex;
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+  width: 110%;
+  margin: 10px 0;
+  margin-left: 30px;
+  font-weight: bold;
+  border-radius: 100px;
+  font-family: 'Jost', sans-serif;
+}
+
+.gold-button {
+  background-color: #F8C306;
+  color: black;
+  padding: 10px 0;
+  width: 110%;
+  font-weight: bold;
+  font-size: larger;
+  border: none;
+  margin-left: 30px;
+  border-color: #000;
+  font-family: 'Jost', sans-serif;
+}
+
+.mint-extra {
+  margin-top: 10px;
+  font-size: 13px;
+  margin-left: 120px;
+}
+
+.minted {}
+
+.gold-text {
+  color: #F8C306;
+  font-weight: bold;
+}
+
+.right-info {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.circle-graph {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#f7c203 0% 82%, white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: background 1s ease-in-out;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+.circle-graph::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background-color: #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.circle-graph span {
+  position: relative;
+  z-index: 2;
+}
+
+/* On hover: animate the white fill (reverse) */
+.circle-graph:hover {
+  background: conic-gradient(#f7c203 0% 82%, white 0% 100%);
+}
+
+
+.mint-bottom {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-img1 img {
+  width: 35%;
+}
+
+.bottom-title {
+  font-size: 14px;
+
+  margin-bottom: 40px;
+}
+
+.mint-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.item {
+  text-align: center;
+  display: flex;
+}
+
+.item img {
+  width: 70px;
+}
+
+.item p {
+  margin-top: 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.item1 .pic {
+  height: 2px;
+}
+
+
+/* 
+next section */
+
+.media-title {
+  text-align: center;
+  margin-bottom: 100px;
+  letter-spacing: 5px;
+  padding-top: 100px;
+}
+
+.media-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  ;
+
+}
+
+.media-button {
+  width: 400px;
+  margin-left: 950px;
+
+
+  padding: 100px;
+}
+
+
+
+.media-section {
+  background: linear-gradient(to right, #3c3535, #000000);
+}
+
+/* the 8tth section */
+.sub>img {
+  background-color: black;
+}
+
+.section8 {
+  position: relative;
+  background-color: black;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1)), url('./logo/section10/sanwal\ 2.png');
+}
+
+/* .section8::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 4rem 3rem;
+    background-image: url('./logo/section8/1be9ad3ef286d9ad3ccbac3b94fb5ba9440f2195.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.innerone img {
+  width: 100%;
+}
+
+.sub img {
+  width: 100%;
+}
+
+.innertwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.s-p {
+  color: #D2D2D5;
+  font-size: 0.8rem;
+}
+
+.s-p2 {
+  color: #A5A5AB;
+  font-size: 0.8rem;
+}
+
+.innerone {
+  position: relative;
+}
+
+.innerone::before {
+  content: '';
+  position: absolute;
+  background-image: url('./logo/section8/Header-003\ 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.same {
+  position: absolute;
+  top: 2rem;
+  top: 21rem;
+  left: 2rem;
+}
+
+.sub {
+  position: relative;
+}
+
+.same2 {
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+}
+
+.headerline .text .s8h {
+  text-align: center;
+  position: relative;
+  margin: 3rem;
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 1rem;
+}
+
+.headerline .text .s8h::before {
+  content: '';
+  background-image: url('images/Group\ 270.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 165px;
+  display: block;
+  position: absolute;
+  right: -0.5rem;
+  top: -0.3rem;
+
+}
+
+.innerthree {
+  margin-bottom: 3rem;
+}
+
+
+/* the 9th section */
+
+
+
+
+.leftdiv {
+  background-image: url('./footer/Group\ 36907\(1\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-basis: 40%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.rightdiv {
+  background-image: url('./footer/Group\ 36907\(1\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-basis: 60%;
+  display: flex;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.9)), url('./logo/Group\ 36918.png');
+  /* background-color: black; */
+}
+
+.div {
+  display: flex;
+  /* background-image: url('./logo/section9/img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.rightdiv #imgone {
+  width: 460px;
+  height: 600px;
+}
+
+.rightdiv #imgtwo {
+  width: 535px;
+  position: relative;
+  height: 800px;
+  right: 15rem;
+}
+
+.mmocolor {
+  color: #F8C306;
+}
+
+.katanah {
+  font-size: 2.2rem;
+  color: white;
+}
+
+.checktext {
+  font-size: 1.2rem;
+  color: #D0D4EA;
+  padding: 0 4rem;
+  margin-top: 2rem;
+}
+
+.t-one {
+  padding: 0.5rem 3rem;
+  background-color: #FFC700;
+  font-weight: bold;
+  border: 1 px solid white;
+  margin-top: 2.5rem;
+}
+
+.d-two {
+  width: 9.1rem;
+  padding: 0.4rem 0;
+  background-color: #232323;
+  font-weight: bold;
+  border: 1 px solid white;
+  color: white;
+
+}
+
+.doublebtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 0.6rem;
+}
+
+
+/* the  10th section */
+
+.wallet-section {
+  background: url('./logo/section10/sanwal\ 2.png') no-repeat center center/cover;
+  text-align: center;
+  padding: 12rem;
+  color: white;
+}
+
+.wallet-title {
+  font-size: 32px;
+  color: #FFD700;
+  margin-bottom: 30px;
+}
+
+.wallet-subtitle {
+  font-size: 16px;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.wallet-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.wallet-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.wallet-card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.wallet-card p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.how-it-works h2 {
+  color: #FFD700;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.how-it-works{
+  width: 60%;
+  margin: 0 auto;
+}
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 5rem;
+}
+
+.step {
+  text-align: center;
+}
+
+.step img {
+  background: #111;
+  padding: 15px;
+  border-radius: 50%;
+  width: 60%;
+  margin-bottom: 10px;
+}
+.step p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.mzero{
+  margin-bottom: -0.9rem;
+}
+/* section 11======= */
+.katanacontainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section11 {
+  background-image: url('./footer/image\ 5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+.katanacontent {
+  padding: 9rem 7rem 9rem 45rem;
+  text-align: center;
+  color: white;
+}
+
+.katanah {
+  font-size: 2.2rem;
+}
+
+.two {
+  margin-top: 1.6rem;
+}
+
+.symbolbtn {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+#email {
+  width: 18.75rem;
+  height: 2rem;
+  padding: 1.3rem 1.2rem;
+  background-color: black;
+  border: 1px solid #F8C30680;
+  color: white;
+}
+
+.symbol {
+  padding: 0 1rem;
+  color: white;
+  border: none;
+  background-color: #F8C30680;
+
+}
+
+.mmocolor {
+  color: #F8C306;
+}
+
+/* footer===========/ */
+footer {
+  background-color: black;
+  color: white;
+   background: url('./logo/section10/sanwal\ 2.png') no-repeat center center/cover;
+}
+
+.footerright {
+  flex-grow: 1;
+}
+
+.footerleft {
+  display: flex;
+  flex-grow: 1;
+}
+
+.footerright img {
+  width: 100%;
+}
+
+.katanalogo {
+  padding-top: 30px;
+}
+
+.katanalogo img {
+  width: 100px;
+}
+
+.footercontainer {
+  width: 100%;
+  /* margin top dite hbe */
+  margin: 0 auto;
+}
+
+.ftotal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+/* left footer style */
+.footerleft {
+  display: flex;
+}
+
+.dummytext {
+  padding: 20px;
+}
+
+.downtext {
+  margin-top: 30px;
+  color: #747474;
+}
+
+.uptext {
+  color: #747474;
+}
+
+/* for about */
+.about1 {
+  padding: 10px;
+}
+
+.aboutul>a {
+  color: #747474;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.abouthead {
+  font-size: 1.5rem;
+}
+
+/* for support */
+.support {
+  padding: 10px;
+}
+
+.supportul>a {
+  color: #747474;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.supporthead {
+  font-size: 1.5rem;
+}
+
+/* for icon */
+.icons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2.7rem;
+}
+
+.icons span .i {
+  font-size: 1.5rem;
+  color: #F8C306CC;
+  transform: perspective(800px) translateZ(0px);
+}
+
+.icons span .i:hover {
+  transform: perspective(1100px) translateZ(200px);
+  transition: all 0.5s ease;
+  color: white;
+
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+.copyright p {
+  color: #747474;
+  font-size: 0.9rem;
+}
