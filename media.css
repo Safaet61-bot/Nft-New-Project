@@ -1,6 +1,6 @@
-/* ============for section three================= */
 
-@media (max-width: 375px) {
+
+@media (max-width: 400px) {
     .header {
         flex-direction: column;
         align-items: flex-start;
