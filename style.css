@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow: scroll; */
+ 
   text-decoration: none;
   list-style: none;
   font-family: 'Jost', sans-serif;
@@ -93,9 +93,9 @@ button:hover {
 
 .btn-white:hover {
   color: #FFD700;
-  /* Change text color to yellow on hover */
+  
   border-color: #FFD700;
-  /* Change border color to yellow on hover */
+ 
 }
 
 .btn-yellow {
@@ -110,18 +110,14 @@ button:hover {
 
 body {
   background: #000;
-  /* dark background like your screenshot */
-  /* font-family: sans-serif; */
   color: white;
 }
 
 .divider-line {
   height: 1px;
-  background-color: white;
-  /* or any color you want */
   width: 100%;
   margin-top: 8px;
-  /* space from header */
+
 }
 
 
@@ -136,36 +132,6 @@ body {
   color: white;
 }
 
-/* .
-hero-left{
-    width: 695.19;
-    height: 642.61;
-    
-}
-
-  font-weight: bold;
-  text-align: center;  
-  display: flex;  
-  line-height: 1.1; 
-}
-
-.white, .yellow {
-  display: inline-block; 
-}
-
-.yellow-cross-img {
-  width: 10%; 
-  margin: 0 10px; 
-}
-
-h1 br {
-  display: block; 
-  margin: 10px 0;
-}  */
-
-/* .H1-text{
-  font-size: 100px;
-} */
 .hero-left {
   flex-basis: 80%;
 
@@ -173,7 +139,6 @@ h1 br {
 
 .Whitelist-image {
   width: 40%;
-  /* Set the width of the image */
   height: auto;
 }
 
@@ -262,7 +227,7 @@ h1 br {
 
 
 .hero-right img {
-  /* max-width: 7000px; */
+ 
   width: 100%;
   height: 100%;
   line-height: 1;
@@ -273,10 +238,10 @@ h1 br {
 .divider-line2 {
   height: 3px;
   background-color: rgba(248, 204, 6, 0.961);
-  /* or any color you want */
+
   width: 10%;
   margin-top: 10px;
-  /* space from header */
+
 }
 
 /* for the 2nd page */
@@ -286,7 +251,7 @@ h1 br {
 
   color: white;
   margin-top: 20px;
-  /* margin-bottom: 5rem; */
+
   background-image: url('./logo/section-2/sanwal\ 2\ \(2\).png');
 
 
@@ -346,12 +311,6 @@ h1 br {
 }
 
 
-/* .doge{
-    
-    width: 995.34px;
-    height: 100px;
-   
-} */
 .bottom-character {
   display: flex;
   justify-content: center;
@@ -376,7 +335,7 @@ h1 br {
 
   padding-left: 150px;
   background: linear-gradient(to bottom, #f3f3f3, #000000);
-  /* align-content: center; */
+
 
 }
 
@@ -448,7 +407,6 @@ h1 br {
 
 .strong-text:hover {
   color: #FFD700;
-  /* Gold color on hover */
 }
 
 .text .x {
@@ -463,25 +421,17 @@ h1 br {
 
 .hex-frame {
   width: 100px;
-  /* Set the size for the hex-frame (you can adjust the size as needed) */
   height: 100px;
   position: relative;
-  /* Ensures the child elements are positioned inside it */
 }
 
 .utility-icon {
   position: absolute;
-  /* Position the second image inside the first one */
   top: 40%;
-  /* Vertically center */
   left: 50%;
-  /* Horizontally center */
   transform: translate(-50%, -50%);
-  /* Corrects the positioning by moving the image back */
   width: 50px;
-  /* Set the size of the second image */
   height: 50px;
-  /* Set the size of the second image */
 }
 
 .Utility-item {
@@ -492,9 +442,8 @@ h1 br {
 
 .Utility-item:hover {
   color: #a3a3a1;
-  /* Change text color to yellow on hover */
   cursor: pointer;
-  /* Change border color to yellow on hover */
+  
 }
 
 
@@ -503,27 +452,22 @@ h1 br {
   flex-direction: column;
 
   margin-top: 3%;
-  /* Small gap between the images and the text */
+ 
   line-break: 10%;
   margin-left: 1;
   font-family: 'Jost', sans-serif;
 }
 
 
-/* Style for the strong text with border */
 .strong-text {
   border: 1px solid #FFD700;
-  /* Yellow border */
   padding: 5px 50px 5px 5px;
-  /* Padding around the text */
   background-color: white;
-  /* White background */
   color: black;
-  /* Text color (black) for visibility */
   margin-bottom: 14px;
-  /* Space between text elements */
+
   text-align: left;
-  /* Align text to the left */
+  
   margin-right: 1%;
   margin-left: 0;
   font-family: 'Jost', sans-serif;
@@ -541,47 +485,26 @@ h1 br {
   padding-left: 6%;
 }
 
-/* Optional: Add a rough border effect (e.g., using background-image) */
+
  .left-divider {
   height: 3px;
   background-color: rgb(237, 214, 4);
-  /* or any color you want */
+
   width: 10%;
   margin-right: auto;
 
 }
 
 .right-divider {
-  /* or any color you want */
-  /* or a specific height like 300px */
-
+  
   height: 3px;
   background-color: rgb(237, 214, 4);
-  /* or any color you want */
   width: 30%;
   margin-left: auto;
 
 }
 
-/* .babydoge-wrapper {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
-    url('./logo/Group 36918.png') no-repeat center/cover;
 
-
-  margin-bottom: 5%;
-
-} */
-
-/* background: linear-gradient(to bottom, #0000, #482300);
-  background: linear-gradient(to left, #222, #111); */
-
-/* 3rd section */
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
 /* ====section three=== */
 .section3 {
@@ -1273,7 +1196,6 @@ p {
   color: white;
   border-top: 2px solid #ffffff;
   width: 320px;
-  /* Increase or set custom width */
   height: 180px;
 }
 
@@ -1478,9 +1400,7 @@ p {
 }
 
 .left-info {
-  /* flex: 1;
-  text-align:left;
-  padding-left: 50px; */
+
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -1688,17 +1608,7 @@ next section */
    background-image: linear-gradient(rgba(0, 0, 0, 0.1)), url('./logo/section10/sanwal\ 2.png');
 }
 
-/* .section8::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    padding: 4rem 3rem;
-    background-image: url('./logo/section8/1be9ad3ef286d9ad3ccbac3b94fb5ba9440f2195.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 
 .outer {
   display: flex;
@@ -1939,7 +1849,7 @@ next section */
   margin-bottom: 30px;
 }
 .how-it-works{
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 .steps {
@@ -1958,7 +1868,7 @@ next section */
   background: #111;
   padding: 15px;
   border-radius: 50%;
-  width: 60%;
+  width: 50%;
   margin-bottom: 10px;
 }
 .step p {
